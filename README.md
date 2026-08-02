@@ -66,6 +66,35 @@ The chatbot checks both documents and gives a response based on the uploaded con
 
 ---
 
+## Screenshots
+
+### Registration/Login Page
+User authentication interface where users can register and securely log in using JWT-based authentication.
+
+<img width="1795" height="957" alt="image" src="https://github.com/user-attachments/assets/7d368781-e129-4403-bd04-2fe988b8e6ac" />
+
+
+
+### Dashboard
+Dashboard showing uploaded PDF documents, recent activity, and user information.
+
+<img width="1917" height="971" alt="image" src="https://github.com/user-attachments/assets/7cea7b65-5071-447d-b337-d6b2977b2edc" />
+
+
+
+### PDF Upload
+Users can upload single or multiple PDF documents for AI-powered conversations.
+
+<img width="1886" height="950" alt="image" src="https://github.com/user-attachments/assets/0e6c70eb-6d25-4e83-8c91-dfb275a6d49d" />
+
+
+
+### AI Chat Interface
+Interactive chatbot interface where users can select PDFs and ask questions based on document content.
+
+<img width="1912" height="976" alt="image" src="https://github.com/user-attachments/assets/dbffad22-a8bc-4925-a3b8-080c95e477a6" />
+
+
 ## Pages
 
 - **Login:** User login
