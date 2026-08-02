@@ -1,8 +1,9 @@
-# AI PDF Chatbot Web Application
+# AI PDF Chatbot 
 
 A full-stack web application where users can upload PDF files and ask questions about them in a chatbot.
 
 Users can upload one PDF or multiple PDFs at the same time. For example, they can upload a resume and a job description, then ask the chatbot to compare them or tailor the resume according to the job description.
+
 
 ---
 
@@ -125,7 +126,7 @@ client/src/services    API calls
 server/routes          Backend API routes
 server/controllers     Backend logic
 server/services        Database and PDF search logic
-server/uploads         Uploaded PDF files
+server/uploads         Uploaded PDF storage directory (ignored by Git)
 ```
 
 ---
@@ -189,7 +190,7 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_mysql_password
 DB_NAME=pdf_chatbot
-JWT_SECRET=pdf_chatbot_secret_key_2026_secure
+JWT_SECRET=your_secret_key
 JWT_EXPIRES_IN=24h
 CLIENT_URL=http://localhost:5173
 GEMINI_API_KEY=your_gemini_api_key
@@ -227,6 +228,17 @@ http://localhost:5000
 7. Check Dashboard and History.
 
 ---
+
+---
+
+## Future Enhancements
+
+- Add OCR support for scanned PDF documents
+- Implement semantic search using vector embeddings
+- Add document summarization feature
+- Add chat export functionality
+- Deploy application using cloud services
+- Improve response accuracy with advanced AI retrieval techniques
 
 ## Note
 
